@@ -1,7 +1,13 @@
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
 class LinkConnection:
-    def __init__(self,):
+    def __init__(self,data):
+        self._head = None
+    
+    # Add list to rear
+    def addFront(self):
         pass
 
-class Node:
-    def __init__(self):
-        self_head = None
