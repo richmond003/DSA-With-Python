@@ -24,9 +24,9 @@ class LinkConnection:
     def getIndex(self, item):
         pass
 
-    def _getPredeccessor(self, item):
+    def _getPredeccessor(self, target):
         """ 
-         Helper function to the previous data
+         Helper function to get the previous data
            """
         pass
     def __len__(self):
