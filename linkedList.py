@@ -1,16 +1,14 @@
 class Node:
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
+    def __init__(self):
+       pass
 
 class LinkConnection:
     def __init__(self):
-        self._head = None
+        pass
     
     # Add list to rear
     def addFront(self, item):
-        newNode = Node(item)
-        newNode.next = self._head
+        pass
     
     def addToEnd(self, item):
         pass
